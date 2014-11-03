@@ -1,13 +1,9 @@
 // Modules
 var express        = require('express'),
     app            = express(),
-    mongoose       = require('mongoose'),
     bodyParser     = require('body-parser'),
     methodOverride = require('method-override'),
-    db             = require('./config/db'),
-    port           = 3003;
-
-mongoose.connect(db.url); 
+    port           = 3001;
 
 // get all data/stuff of the body parameters
 app.use(express.static(__dirname + '/public'));
