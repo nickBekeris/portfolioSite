@@ -34,6 +34,30 @@ div.nav .circle.topright {
   left: 13.5em;
   top: -0.5em;
 }
+div.nav .circle.fb {
+  left: -2em;
+  top: 10em;
+}
+div.nav .circle.github {
+  left: 0.25em;
+  top: 13em;
+}
+div.nav .circle.twitter {
+  left: 4em;
+  top: 15em;
+}
+div.nav .circle.linked {
+  left: 8.5em;
+  top: 15em;
+}
+div.nav .circle.steam {
+  left: 12.25em;
+  top: 13em;
+}
+div.nav .circle.skype {
+  left: 14.5em;
+  top: 10em;
+}
 div.nav .circle.active {
   background-color: #428bca;
 }
@@ -45,6 +69,10 @@ div.nav .circle a {
   height: 4.5em;
   vertical-align: middle;
   width: 4.5em;
+}
+div.nav .circle a.social {
+  height: 2.25em;
+  width: 2.25em;
 }
 div.nav .circle a:hover {
   color: white;
