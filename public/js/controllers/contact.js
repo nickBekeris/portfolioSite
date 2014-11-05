@@ -1,6 +1,6 @@
-angular.module('about', []).controller('AboutController', function ($scope, $http) {
+angular.module('contact', []).controller('ContactController', function ($scope, $http) {
 
-  console.log('AboutController initialized');
+  console.log('ContactController initialized');
 
   $(window)
     .ready(function () {

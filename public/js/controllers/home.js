@@ -34,11 +34,8 @@ angular.module('home', []).controller('HomeController', function ($scope, $http)
     }, 900);
   }
 
-  $('.circle').hover(function () {
-    var circle = $(this);
-    if (!circle.hasClass('.active')) {
-      circle.toggleClass('active');
-    }
+  $('.circle:not(".active")').hover(function () {
+    $(this).toggleClass('active');
   });
 
 });

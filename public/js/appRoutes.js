@@ -10,6 +10,14 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
     .when('/about', {
       templateUrl: 'views/about.html',
       controller: 'AboutController'
+    })
+    .when('/portfolio', {
+      templateUrl: 'views/portfolio.html',
+      controller: 'PortfolioController'
+    })
+    .when('/contact', {
+      templateUrl: 'views/contact.html',
+      controller: 'ContactController'
     });
 
   $locationProvider.html5Mode(true);

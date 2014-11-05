@@ -20,7 +20,7 @@ div {
       display: table;
       position: absolute;
       &.top {
-        left: 5.5em;
+        left: 5.25em;
         top: -5em;
       }
       &.topleft {
@@ -28,7 +28,7 @@ div {
         top: -0.5em;
       }
       &.topright {
-        left: 13.75em;
+        left: 13.5em;
         top: -0.5em;
       }
       &.active {

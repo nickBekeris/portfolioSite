@@ -3,6 +3,8 @@ angular.module(
     'ngRoute',
     'appRoutes',
     'home',
-    'about'
+    'about',
+    'portfolio',
+    'contact'
   ]
 );

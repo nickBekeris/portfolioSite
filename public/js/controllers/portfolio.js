@@ -1,6 +1,6 @@
-angular.module('about', []).controller('AboutController', function ($scope, $http) {
+angular.module('portfolio', []).controller('PortfolioController', function ($scope, $http) {
 
-  console.log('AboutController initialized');
+  console.log('PortfolioController initialized');
 
   $(window)
     .ready(function () {

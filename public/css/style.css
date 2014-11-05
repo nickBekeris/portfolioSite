@@ -23,7 +23,7 @@ div.nav .circle {
   position: absolute;
 }
 div.nav .circle.top {
-  left: 5.5em;
+  left: 5.25em;
   top: -5em;
 }
 div.nav .circle.topleft {
@@ -31,7 +31,7 @@ div.nav .circle.topleft {
   top: -0.5em;
 }
 div.nav .circle.topright {
-  left: 13.75em;
+  left: 13.5em;
   top: -0.5em;
 }
 div.nav .circle.active {
