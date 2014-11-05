@@ -9,6 +9,12 @@ body {
 div {
   height: 100%;
 }
+div.auto {
+  height: auto;
+}
+div.nav {
+  width: 15em;
+}
 div.full {
   display: table;
   width: 100%;
@@ -21,14 +27,17 @@ div.vert {
 div.mobile {
   display: block;
   height: auto;
-  margin-top: 6em;
+  margin-top: 4em;
 }
 div.mobile h1 {
   font-size: 4em;
 }
+div img {
+  width: 100%;
+}
 div img.headshot {
-  max-width: 15em;
-  width: 60%;
+  border: 1px solid #428bca;
+  padding: .5em;
 }
 
 h1 {

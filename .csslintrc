@@ -1,3 +1,4 @@
 {
-  "unique-headings": false
+  "unique-headings": false,
+  "qualified-headings": false
 }
