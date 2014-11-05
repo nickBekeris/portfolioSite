@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+div {
+  height: 100%;
+  &.full {
+    display: table;
+    width: 100%;
+  }
+  &.vert {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+  }
+  &.mobile {
+    display: block;
+    height: auto;
+    margin-top: 6em;
+  }
+  img {
+    &.headshot {
+      max-width: 15em;
+      width: 60%;
+    }
+  }
+}
+
+h1 {
+  font-size: 72px;
+}

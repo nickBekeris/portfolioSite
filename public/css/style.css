@@ -1,3 +1,35 @@
+html, body {
+  height: 100%;
+}
 
+body {
+  background-color: lightgrey;
+}
+
+div {
+  height: 100%;
+}
+div.full {
+  display: table;
+  width: 100%;
+}
+div.vert {
+  display: table-cell;
+  height: auto;
+  vertical-align: middle;
+}
+div.mobile {
+  display: block;
+  height: auto;
+  margin-top: 6em;
+}
+div img.headshot {
+  max-width: 15em;
+  width: 60%;
+}
+
+h1 {
+  font-size: 72px;
+}
 
 /*# sourceMappingURL=style.css.map */
