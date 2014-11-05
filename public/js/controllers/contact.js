@@ -1,4 +1,4 @@
-angular.module('contact', []).controller('ContactController', function ($scope, $http) {
+angular.module('contact', []).controller('ContactController', function ($scope, $http, $location) {
 
   console.log('ContactController initialized');
 
@@ -23,13 +23,14 @@ angular.module('contact', []).controller('ContactController', function ($scope, 
     $(this).toggleClass('active');
   });
   
-  $scope.checkCreate = function () {
+  $scope.checkForm = function () {
     var name = $scope.name,
       email = $scope.email,
       question = $scope.question;
       
       $http.post('/api/contact/' + email + '/' + name + '/' + question)
         .success(function (data) {
+          $location.path('/');
         })
         .error(function (data) {
           console.log('Error: ', data);
