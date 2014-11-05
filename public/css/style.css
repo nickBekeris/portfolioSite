@@ -12,6 +12,9 @@ div {
 div.auto {
   height: auto;
 }
+div.content {
+  width: 80%;
+}
 div.nav {
   margin: 6em auto;
   position: relative;
