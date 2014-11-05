@@ -13,6 +13,7 @@ div.auto {
   height: auto;
 }
 div.content {
+  margin-bottom: 4em;
   width: 80%;
 }
 div.nav {
