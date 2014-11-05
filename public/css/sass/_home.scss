@@ -33,6 +33,9 @@ div {
       }
       &.active {
         background-color: #428bca;
+        a {
+          color: white;
+        }
       }
       a {
         display: table-cell;
@@ -62,6 +65,11 @@ div {
     h1 {
       font-size: 4em;
     }
+  }
+  &.notHome {
+    display: block;
+    height: auto;
+    margin-top: 4em;
   }
   img {
     width: 100%;
