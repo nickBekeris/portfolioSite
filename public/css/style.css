@@ -18,22 +18,27 @@ div.nav {
   width: 15em;
 }
 div.nav .circle {
-  background-color: black;
-  height: 4em;
+  border: 1px solid grey;
+  display: table;
   position: absolute;
-  width: 4em;
 }
 div.nav .circle.top {
   left: 5.5em;
-  top: -4.5em;
+  top: -5em;
 }
 div.nav .circle.topleft {
-  left: -2.5em;
+  left: -3.25em;
   top: -0.5em;
 }
 div.nav .circle.topright {
-  left: 13.5em;
+  left: 13.75em;
   top: -0.5em;
+}
+div.nav .circle a {
+  display: table-cell;
+  height: 4.5em;
+  vertical-align: middle;
+  width: 4.5em;
 }
 div.full {
   display: table;
