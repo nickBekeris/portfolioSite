@@ -21,4 +21,13 @@ angular.module('home', []).controller('HomeController', function ($scope, $http)
       }
     });
 
+  if ($('.fader li').hasClass('inactive')) {
+    setTimeout(function () {
+      setInterval(function () {
+        $('.fader .inactive:first').addClass('active');
+        $('.fader .inactive:first').removeClass('inactive');
+      }, 600);
+    }, 900);
+  }
+
 });

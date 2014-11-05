@@ -40,5 +40,18 @@ ul.inline li {
   display: inline;
   font-size: 1.5em;
 }
+ul.fader li {
+  left: 1em;
+  opacity: 0;
+  position: relative;
+  transition: opacity .5s, left .5s;
+  -o-transition: opacity .5s, left .5s;
+  -moz-transition: opacity .5s, left .5s;
+  -webkit-transition: opacity .5s, left .5s;
+}
+ul.fader li.active {
+  left: 0;
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
