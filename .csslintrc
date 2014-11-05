@@ -1,4 +1,5 @@
 {
-  "unique-headings": false,
-  "qualified-headings": false
+  "adjoining-classes": false,
+  "qualified-headings": false,
+  "unique-headings": false
 }

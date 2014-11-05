@@ -13,7 +13,27 @@ div.auto {
   height: auto;
 }
 div.nav {
+  margin: 6em auto;
+  position: relative;
   width: 15em;
+}
+div.nav .circle {
+  background-color: black;
+  height: 4em;
+  position: absolute;
+  width: 4em;
+}
+div.nav .circle.top {
+  left: 5.5em;
+  top: -4.5em;
+}
+div.nav .circle.topleft {
+  left: -2.5em;
+  top: -0.5em;
+}
+div.nav .circle.topright {
+  left: 13.5em;
+  top: -0.5em;
 }
 div.full {
   display: table;

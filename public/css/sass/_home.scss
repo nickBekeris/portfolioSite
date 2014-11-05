@@ -12,7 +12,27 @@ div {
     height: auto;
   }
   &.nav {
+    margin: 6em auto;
+    position: relative;
     width: 15em;
+    .circle {
+      background-color: black;
+      height: 4em;
+      position: absolute;
+      width: 4em;
+      &.top {
+        left: 5.5em;
+        top: -4.5em;
+      }
+      &.topleft {
+        left: -2.5em;
+        top: -0.5em;
+      }
+      &.topright {
+        left: 13.5em;
+        top: -0.5em;
+      }
+    }
   }
   &.full {
     display: table;
