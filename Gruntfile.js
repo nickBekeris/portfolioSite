@@ -16,6 +16,7 @@ module.exports = function(grunt) {
     csslint: {
       main: {
         options: {
+          csslintrc: '.csslintrc',
           'overqualified-elements': false
         },
         src: ['public/css/*.css']

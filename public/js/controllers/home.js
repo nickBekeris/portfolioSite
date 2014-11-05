@@ -21,6 +21,10 @@ angular.module('home', []).controller('HomeController', function ($scope, $http)
       }
     });
 
+  setTimeout(function () {
+    $('h1').addClass('active');
+  }, 300);
+
   if ($('.fader li').hasClass('inactive')) {
     setTimeout(function () {
       setInterval(function () {

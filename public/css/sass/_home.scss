@@ -21,6 +21,9 @@ div {
     display: block;
     height: auto;
     margin-top: 6em;
+    h1 {
+      font-size: 4em;
+    }
   }
   img {
     &.headshot {
@@ -31,6 +34,17 @@ div {
 }
 
 h1 {
+  bottom: 1em;
+  opacity: 0;
+  position: relative;
+  transition: opacity 1s, bottom 1s;
+  -o-transition: opacity 1s, bottom 1s;
+  -moz-transition: opacity 1s, bottom 1s;
+  -webkit-transition: opacity 1s, bottom 1s;
+  &.active {
+    bottom: 0;
+    opacity: 1;
+  }
   font: {
     size: 5em;
     weight: 500;
