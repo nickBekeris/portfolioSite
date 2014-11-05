@@ -31,11 +31,18 @@ div {
         left: 13.75em;
         top: -0.5em;
       }
+      &.active {
+        background-color: #428bca;
+      }
       a {
         display: table-cell;
         height: 4.5em;
         vertical-align: middle;
         width: 4.5em;
+        &:hover {
+          color: white;
+          text-decoration: none;
+        }
       }
     }
   }
