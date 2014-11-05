@@ -22,19 +22,19 @@ angular.module('contact', []).controller('ContactController', function ($scope, 
   $('.circle:not(".active")').hover(function () {
     $(this).toggleClass('active');
   });
-  
+
   $scope.checkForm = function () {
     var name = $scope.name,
       email = $scope.email,
       question = $scope.question;
-      
-      $http.post('/api/contact/' + email + '/' + name + '/' + question)
-        .success(function (data) {
-          $location.path('/');
-        })
-        .error(function (data) {
-          console.log('Error: ', data);
-        });
+
+    $http.post('/api/contact/' + email + '/' + name + '/' + question)
+      .success(function (data) {
+        $location.path('/');
+      })
+      .error(function (data) {
+        console.log('Error: ', data);
+      });
   };
 
 });
