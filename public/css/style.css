@@ -29,7 +29,16 @@ div img.headshot {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 5em;
+  font-weight: 500;
+}
+
+ul.inline {
+  padding: 0;
+}
+ul.inline li {
+  display: inline;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
